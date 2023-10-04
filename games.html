@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="JMathieu Coutant">		<title>MC - Jeux</title>
+		<meta name="description" content="My website to put my creations.">
+
+		<link rel="icon" href="assets/icon.png">
+		<link rel="stylesheet" href="styles/style_global.css"/>
+		<link rel="stylesheet" href="styles/style_games.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet"> 
+	</head>
+	<body>
+		<nav class="nav_cont" id="goToTop">
+			<div class="nav_site"><a href="index.html"><p>Accueil</p></a></div>
+			<div class="nav_site"><a href="games.html"><p>Jeux</p></a></div>
+			<!--<div class="nav_site"><a href="code.html"><p>Code</p></a></div>-->
+			<div class="nav_lang"><p>FR / <a href="en/games.html">EN</a></p></div>
+		</nav>
+		<div class="header-frontpage">
+			<h1 style="font-family: 'Mochiy Pop One', sans-serif;">Jeux</h1>
+		</div>
+		<nav class="nav_page">
+			<a href="#goToGeckolot" style="text-decoration:none;" class="nav_page_pres"><li>Geckolot</li></a>
+			<a href="#goToBlobArt" style="text-decoration:none;" class="nav_page_som"><li>Blob Art</li></a>
+			<div class="returntop" style="background:linear-gradient(to right, #2ff197, #37cff5);	"><a href="#goToTop">Haut</a></div>
+		</nav>
+		<div class="main">
+			<div class="main_section" style="background-image: url(assets/images/GeckolotBG.png);">
+				<div class="game_container" id="goToGeckolot">
+					<img src="./assets/images/GeckolotLogo.png" style="height:30%; width:auto; image-rendering: pixelated;">
+					<br>
+					<div class="gameDescription">
+						<p>		
+							Geckolot se joue à deux. Chaque joueur a une capacité spéciale : l'axolotl peut attirer le gecko à lui tandis que ce dernier peut repousser l'axolotl.
+						Les deux joueurs doivent s'entraider pour surmonter les obstacles de la grotte dans laquelle ils sont coincés.
+						<br>
+						<br>
+						<br>
+						Geckolot est un jeu réalisé en 48h pour la Globale Game JAM 2022 sur Unity avec une équipe de 8 personnes. J'ai participé au Game Design, Level Design et à la création de l'histoire.
+						</p>
+					</div>
+					<br>
+					<a class="geckolotLinks" href="https://mathieu-coutant.itch.io/geckolot" target="_blank" style="background-color: rgba(255, 174, 149, 0.822);">
+						Itch.io
+						<img src="./assets/images/GeckolotGecko.png" style="width:auto; image-rendering: pixelated; margin:0;">
+					</a>
+					<a class="geckolotLinks" href="https://github.com/Hugo-Carbiener/Geckolot" target="_blank" style="background-color: rgba(66, 161, 216, 0.822);">
+						<img src="./assets/images/GeckolotAxolotl.png" style="width:auto; image-rendering: pixelated; margin:0;">
+						GitHub
+					</a>
+				</div>
+			</div>
+			<div class="main_section" style="background-image: url(assets/images/BlobArtBG.PNG);">
+				<div class="game_container"  id="goToBlobArt">
+					<img src="assets/images/BlobArtLogo.png" style="height:30%; width:auto; image-rendering: pixelated; ">
+					<br>
+					<div class="gameDescription"> 
+						<p>
+							Blob Art est un jeu de pixel art. Le joueur doit reproduire des pixels art en se déplaçant sur une grille.<br>
+							Il est aussi possible de créer ses propres pixels art et de modifier les pixels art existant.
+							<br>
+							<br>
+							<br>
+							Ce jeu a été réalisé en Java avec la librairie LibGDX. L'équipe était composée de trois personnes. Pour ma part j'ai réalisé les graphismes du jeu et une grande partie du code.
+						</p>
+					</div>
+					<br>
+					<a class="blobArtLinks" href="" target="_blank">
+						Itch.io
+					</a>
+					<a class="blobArtLinks" href="" target="_blank">
+						GitHub
+					</a>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p>Merci à <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> de fournir l'hébergement du site.</p>
+		</footer>
+		<script src="scripts/gamesDarkerer.js"></script>
+	</body>
+</html>
