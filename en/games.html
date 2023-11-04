@@ -14,11 +14,12 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet"> 
 	</head>
-	<body>
-		<nav class="nav_cont" id="goToTop">
+	<body id="goToTop">
+		<nav class="nav_cont">
 			<div class="nav_site"><a href="index.html"><p>Home</p></a></div>
-			<div class="nav_site"><a href="games.html"><p>Games</p></a></div>
-			<!--<div class="nav_site"><a href="code.html"><p>Code</p></a></div>-->
+			<div class="nav_site"><a href="projects.html"><p>Projects</p></a></div>
+			<div class="nav_site"><a href="games.html" style="background-color: #dbdbdb;"><p>Games</p></a></div>
+			<div class="returntop" style="background:linear-gradient(to right, #2ff197, #37cff5);	"><a href="#goToTop">Top</a></div>
 			<div class="nav_lang"><p><a href="../games.html">FR</a> / EN</p></div>
 		</nav>
 		<div class="header-frontpage" style="background-image: url(../assets/images/psychokwak_Vsite.png);">
@@ -27,9 +28,33 @@
 		<nav class="nav_page">
 			<a href="#goToGeckolot" style="text-decoration:none;" class="nav_page_pres"><li>Geckolot</li></a>
 			<a href="#goToBlobArt" style="text-decoration:none;" class="nav_page_som"><li>Blob Art</li></a>
-			<div class="returntop" style="background:linear-gradient(to right, #2ff197, #37cff5);	"><a href="#goToTop">Top</a></div>
+			<a href="#goToDungeonS" style="text-decoration:none;" class="nav_page_som"><li>D-S</li></a>
 		</nav>
 		<div class="main">
+			<div class="main_section" style="background-image: url(../assets/images/BlobArtBG.png);">
+				<div class="game_container"  id="goToBlobArt">
+					<img src="../assets/images/BlobArtLogo.png" style="height:30%; width:auto; image-rendering: pixelated; ">
+					<br>
+					<div class="gameDescription"> 
+						<p>
+							  Blob Art is a pixel art game. The player must reproduce pixel art by moving around a grid.
+              <br>
+							  You can also create your own pixel art and modify existing pixel art.
+							<br>
+							<br>
+							<br>
+							  This game was created in Java using the LibGDX engine. The team was made up of three people. I was responsible for the graphics and a large part of the code.
+						</p>
+					</div>
+					<br>
+					<a class="blobArtLinks" href="https://mathieu-coutant.itch.io/blobart" target="_blank">
+						Itch.io
+					</a>
+					<a class="blobArtLinks" href="https://github.com/mathcoutant/projet-BlobArt" target="_blank">
+						GitHub
+					</a>
+				</div>
+			</div>
 			<div class="main_section" style="background-image: url(../assets/images/GeckolotBG.png);">
 				<div class="game_container" id="goToGeckolot">
 					<img src="../assets/images/GeckolotLogo.png" style="height:30%; width:auto; image-rendering: pixelated;">
@@ -55,26 +80,25 @@
 					</a>
 				</div>
 			</div>
-			<div class="main_section" style="background-image: url(../assets/images/BlobArtBG.png);">
-				<div class="game_container"  id="goToBlobArt">
-					<img src="../assets/images/BlobArtLogo.png" style="height:30%; width:auto; image-rendering: pixelated; ">
+			<div class="main_section" style="background-image: url(../assets/images/dungeonS_BG.PNG);">
+				<div class="game_container"  id="goToDungeonS">
+					<h1 style="color:white;">Dungeon Survivor</h1>
 					<br>
 					<div class="gameDescription"> 
 						<p>
-							  Blob Art is a pixel art game. The player must reproduce pixel art by moving around a grid.
-              <br>
-							  You can also create your own pixel art and modify existing pixel art.
+							Dungeon Survivor is a little Hack'n Slash game created for a school project.
+							The goal is to survive as long as possible in an arena by killing monsters and gathering experience to improve your skills.						
 							<br>
 							<br>
 							<br>
-							  This game was created in Java using the LibGDX engine. The team was made up of three people. I was responsible for the graphics and a large part of the code.
+							It was created with a friend using Unity.
 						</p>
 					</div>
 					<br>
-					<a class="blobArtLinks" href="https://mathieu-coutant.itch.io/blobart" target="_blank">
+					<a class="dungeonSLinks" href="https://mathieu-coutant.itch.io/dungeon-survivor" target="_blank">
 						Itch.io
 					</a>
-					<a class="blobArtLinks" href="https://github.com/mathcoutant/projet-BlobArt" target="_blank">
+					<a class="dungeonSLinks" href="https://github.com/mathcoutant/Projet-AMJV" target="_blank">
 						GitHub
 					</a>
 				</div>
